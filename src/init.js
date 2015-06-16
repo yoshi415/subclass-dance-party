@@ -29,7 +29,21 @@ $(document).ready(function(){
       Math.random() * 1000
     );
 
+    window.dancers.push(dancer);
+
     $('body').append(dancer.$node);
   });
+  $(".lineUpButton").on("click", function(event){
+      SecondDancer.prototype.lineUp()
+      BlinkyDancer.prototype.lineUp()
+      
+      ThirdDancer.prototype.lineUp()
+    
+    // var dancerlineUpFunctionName = $(this).data("lineup-dancer-name");
+    // var blinkdancerlineUpFunction = window[blinkdance.prototype[dancerlineUpFunctionName];
+
+
+  });
+
 });
 

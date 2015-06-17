@@ -35,15 +35,8 @@ $(document).ready(function(){
   });
   $(".lineUpButton").on("click", function(event){
       SecondDancer.prototype.lineUp()
-      BlinkyDancer.prototype.lineUp()
-      
+      BlinkyDancer.prototype.lineUp()     
       ThirdDancer.prototype.lineUp()
-    
-    // var dancerlineUpFunctionName = $(this).data("lineup-dancer-name");
-    // var blinkdancerlineUpFunction = window[blinkdance.prototype[dancerlineUpFunctionName];
-
-
   });
-
 });
 
